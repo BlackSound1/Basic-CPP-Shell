@@ -11,15 +11,15 @@ It is modeled after Bash.
 ## Features
 
 - **Builtin Commands**. This basic shell supports the following builtins:
-    - `exit`: Exit the shell with a specified status code. Ex: `exit 1`.
-    - `pwd`: Print the current working directory. Ex: `pwd`.
-	- `cd`: Change the current working directory. Ex: `cd ../`, `cd ~`, `cd /d/Documents`.
-    - `echo`: Print text to the terminal. Ex: `echo "Hello World"`. 
-	Supports typical Bash behavior for single and double quotes, as well as escape sequences. Interpolation not supported.
-	- `type`: 
-        - If the argument is a builtin, displays that to the screen.
-		- If the argument is not a builtin, displays the path to the program, if it exists.
-		- If the argument is not a builtin or a program, displays an error message.
+  - `exit`: Exit the shell with a specified status code. Ex: `exit 1`.
+  - `pwd`: Print the current working directory. Ex: `pwd`.
+    - `cd`: Change the current working directory. Ex: `cd ../`, `cd ~`, `cd /d/Documents`.
+  - `echo`: Print text to the terminal. Ex: `echo "Hello World"`.
+ Supports typical Bash behavior for single and double quotes, as well as escape sequences. Interpolation not supported.
+  - `type`:
+    - If the argument is a builtin, displays that to the screen.
+    - If the argument is not a builtin, displays the path to the program, if it exists.
+    - If the argument is not a builtin or a program, displays an error message.
 - **Other commands**. If the command is not a builtin, it is assumed to be a program and is executed.
 
 ## Usage
