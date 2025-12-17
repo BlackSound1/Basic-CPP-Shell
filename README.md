@@ -1,5 +1,7 @@
 # Basic C++ Shell
 
+![Shell Screenshot](/images/ShellScreenshot.png)
+
 This is a minimum viable product for a basic terminal shell. It is written in C++.
 
 Compiled with C++17 using MSVC.
